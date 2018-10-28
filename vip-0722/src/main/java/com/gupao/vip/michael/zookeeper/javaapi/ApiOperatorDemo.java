@@ -6,7 +6,6 @@ import org.apache.zookeeper.data.Stat;
 import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.TimeUnit;
 
 public class ApiOperatorDemo implements Watcher {
     private final static String CONNECTSTRING = "192.168.1.111:2181,192.168.1.112:2181," + "192.168.1.114:2181,192.168.1.115:2181";
